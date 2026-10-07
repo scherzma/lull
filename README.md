@@ -20,6 +20,17 @@ scene. The keyboard is shut out until the time is up, so the break actually happ
   with a short explanation if you get it wrong.
 - **Tiny.** A single ~700 KB `.exe`, with no installer and no runtime dependencies.
 
+## Download
+
+Get `Lull.exe` from the [latest release](https://github.com/scherzma/lull/releases/latest) and run
+it. It's made for Windows 11; it may run on Windows 10, but that's untested. There's nothing to
+install: it appears in the tray, and settings live in `%APPDATA%\Lull`. To have it start with
+Windows, right-click the tray icon.
+- The exe isn't code-signed, so Windows SmartScreen may warn the first time. Choose
+  *More info → Run anyway*.
+- While a lull runs, Lull uses a low-level keyboard hook to block keys. Some antivirus tools are
+  wary of that. It's only active during a lull, and the full source is here.
+
 ## The panel
 
 ![The tray panel: the normal view, the hidden Grid tuning sheet, and Grid's day look](docs/lull-panel.png)
@@ -197,3 +208,7 @@ write a small log to `%TEMP%\lull-debug.log`.
 | `shaders/common.hlsl` | Fullscreen triangle and the final blit |
 | `res/` | Icon, manifest, resource script |
 | `docs/` | Screenshots for this README |
+
+## License
+
+[MIT](LICENSE)
