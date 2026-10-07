@@ -1,0 +1,10 @@
+# Build output (Lull.exe, objects, compiled shader headers)
+build/
+
+# Leftovers from another session, not part of Lull
+_other-session/
+
+# Editor and IDE files
+.vs/
+.vscode/
+*.user
