@@ -211,4 +211,8 @@ write a small log to `%TEMP%\lull-debug.log`.
 
 ## License
 
-[MIT](LICENSE)
+Lull is free for personal and other noncommercial use, under the
+[PolyForm Noncommercial License 1.0.0](LICENSE.md).
+- **You may** use it, study it, change it and share it, as long as it's not for commercial
+  purposes. Charities, schools and public institutions are welcome too.
+- **Commercial use** isn't covered. If you'd like that, open an issue and ask.
